@@ -9,3 +9,5 @@ describe Hero do
     expect(hero.name).to eq 'Mike'
   end
 end
+
+# проверка через rspec hero_spec.rb --color
