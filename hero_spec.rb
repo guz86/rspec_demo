@@ -23,6 +23,13 @@ describe Hero do
     expect(hero.power_down).to eq 90
   end
 
+# тестриуем hero_info
+  it "dispays full hero info" do
+    hero = Hero.new 'mike'
+
+    expect(hero.hero_info).to eq 'Mike has a health of 100'
+  end
+
 end
 
 # проверка через rspec hero_spec.rb --color
