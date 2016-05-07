@@ -3,6 +3,13 @@ require './hero'
 
 # тестируем для name
 describe Hero do 
+
+# возможная необязательная оптимизация через
+# before do 
+#   @hero = Hero.new 'mike'
+#  end
+# требуется заменить hero = Hero.new 'mike' на @hero 
+
   it "has a capitalized name" do
     hero = Hero.new 'mike'
     # ожидаем что метод hero.name == Mike
