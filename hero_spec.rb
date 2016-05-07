@@ -16,6 +16,13 @@ describe Hero do
     expect(hero.power_up).to eq 110
   end
 
+# тестируем для power_down
+  it "can power down" do
+    hero = Hero.new 'mike'
+
+    expect(hero.power_down).to eq 90
+  end
+
 end
 
 # проверка через rspec hero_spec.rb --color
