@@ -20,7 +20,7 @@ class Car
 
 end
 
-car = Car.new
-car.add_fuel 10
-# сколько миль мы сможем проехать
-puts "Range is #{car.range}"
+# car = Car.new
+# car.add_fuel 10
+# # сколько миль мы сможем проехать
+# puts "Range is #{car.range}"
